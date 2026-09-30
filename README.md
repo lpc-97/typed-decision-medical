@@ -1,6 +1,7 @@
 # Typed Is Not Always Better: Jev-Style Decision Models for Medical Vision–Language Tasks
 
-Code for the paper *Typed Is Not Always Better: Jev-Style Decision Models for Medical Vision–Language Tasks* (preprint, 2026).
+Code for the paper *Typed Is Not Always Better: Jev-Style Decision Models for Medical Vision–Language Tasks* (preprint, 2026)
+by Pengchen Liang, Jianguo Chen, Wencong Lin, Xingguo Lv and Bin Pu.
 
 The study compares typed decision readouts (Jev-style models: one probability per caller-defined option, no text generation) with label-probability readouts, frozen-feature probes and fine-tuned models on Derm7pt, SLAKE, VQA-RAD and PubMedQA. It contains:
 
