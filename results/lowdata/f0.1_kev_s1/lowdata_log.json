@@ -1,0 +1,61 @@
+{
+  "args": {
+    "seed": 1,
+    "epochs": 6,
+    "lr": 5e-05,
+    "batch": 4,
+    "perm_frac": 0.3,
+    "out": "../runs/lowdata/f0.1_kev_s1",
+    "frac": 0.1,
+    "steps": 300,
+    "init": "kev"
+  },
+  "n_train_used": 41,
+  "valid": {
+    "pigment_network": {
+      "auc": 0.7031451076714276,
+      "bacc": 0.5120923520923522,
+      "ece": 0.3860314856902719
+    },
+    "blue_whitish_veil": {
+      "auc": 0.8751730822486845,
+      "bacc": 0.6900443090556633,
+      "ece": 0.1737401723274456
+    },
+    "vascular_structures": {
+      "auc": 0.825823725171249,
+      "bacc": 0.3760199128297288,
+      "ece": 0.18686782051189774
+    },
+    "pigmentation": {
+      "auc": 0.7093185094928699,
+      "bacc": 0.45686813186813185,
+      "ece": 0.35380794761216117
+    },
+    "streaks": {
+      "auc": 0.8100098853509831,
+      "bacc": 0.5619918699186992,
+      "ece": 0.2802178792178337
+    },
+    "dots_and_globules": {
+      "auc": 0.6696975436706772,
+      "bacc": 0.46398337112622823,
+      "ece": 0.4314382907205027
+    },
+    "regression_structures": {
+      "auc": 0.6475748194014448,
+      "bacc": 0.607391640866873,
+      "ece": 0.23406136858052223
+    },
+    "mean_auc": 0.7486775247153338,
+    "mean_bacc": 0.5240559411082395,
+    "mean_ece": 0.292309280665805
+  },
+  "init_source": {
+    "init_from": "jaredpalmer/kev-0.8b",
+    "resolved": "<root>/hf/hub/models--jaredpalmer--kev-0.8b/snapshots/9a45d25eb2ab761841196625383fa1dff0e56c1e",
+    "weights_sha256": "9b908623acb162118575f4e7a94524f9c139c335be4bfb74d6cfceca01e1885a",
+    "head_sha256": "f400bd12802b2b105ae45d6b03774a158a3db4fccff42413734ddca2e5c920b6",
+    "tensors": 372
+  }
+}

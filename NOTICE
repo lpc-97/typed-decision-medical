@@ -1,0 +1,6 @@
+typed-decision-medical
+Copyright 2026 The authors
+
+This product includes software adapted from Kev (https://github.com/jaredpalmer/kev, commit 5920c5f),
+licensed under the Apache License, Version 2.0: src/tdm/vision_kev.py adapts kev/model.py
+(encode, rows_of, row-form forward) and kev/train.py (delta-mode warm start).

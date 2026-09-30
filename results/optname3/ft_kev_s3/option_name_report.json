@@ -1,0 +1,98 @@
+{
+  "model": "ft:kev:../runs/g0/tcb_s3/best_trainable.pt",
+  "conditions": {
+    "C0_orig": {
+      "mean_auc": 0.8373626435749018,
+      "flips_per_100_vs_C0": 0.0,
+      "per_crit_auc": {
+        "pigment_network": 0.7965997181462637,
+        "vascular_structures": 0.8972790469256932,
+        "pigmentation": 0.8219414844901739,
+        "streaks": 0.8834630226320831,
+        "dots_and_globules": 0.7875299456802943
+      }
+    },
+    "C1_neutral": {
+      "mean_auc": 0.8331077667033684,
+      "flips_per_100_vs_C0": 5.41871921182266,
+      "per_crit_auc": {
+        "pigment_network": 0.800537712655102,
+        "vascular_structures": 0.8948243446862231,
+        "pigmentation": 0.8204960813945971,
+        "streaks": 0.8704033597944658,
+        "dots_and_globules": 0.7792773349864541
+      },
+      "dAUC_vs_C0": [
+        -0.004303064693376037,
+        -0.009722460333971528,
+        0.0014259073750072225
+      ]
+    },
+    "C2_random": {
+      "mean_auc": 0.8355846675388623,
+      "flips_per_100_vs_C0": 5.41871921182266,
+      "per_crit_auc": {
+        "pigment_network": 0.8015118922068541,
+        "vascular_structures": 0.8949494324125716,
+        "pigmentation": 0.8189317531142987,
+        "streaks": 0.8750916444413724,
+        "dots_and_globules": 0.7874386155192149
+      },
+      "dAUC_vs_C0": [
+        -0.0018450495987667424,
+        -0.007212795878151895,
+        0.0036504957089867895
+      ]
+    },
+    "C3_swap": {
+      "mean_auc": 0.8245492184379145,
+      "flips_per_100_vs_C0": 18.7192118226601,
+      "per_crit_auc": {
+        "pigment_network": 0.7918223369250503,
+        "vascular_structures": 0.8750242235345446,
+        "pigmentation": 0.8308939065110769,
+        "streaks": 0.8590004027941481,
+        "dots_and_globules": 0.7660052224247522
+      },
+      "dAUC_vs_C0": [
+        -0.013063768841245004,
+        -0.024785548153739467,
+        -0.000885782625519276
+      ],
+      "name_following_rate": 0.1369458128078818
+    },
+    "C4_defonly": {
+      "mean_auc": 0.8312814714507963,
+      "flips_per_100_vs_C0": 6.699507389162562,
+      "per_crit_auc": {
+        "pigment_network": 0.7998923192776254,
+        "vascular_structures": 0.8977130069061398,
+        "pigmentation": 0.8077766588372968,
+        "streaks": 0.8725743299869926,
+        "dots_and_globules": 0.7784510422459272
+      },
+      "dAUC_vs_C0": [
+        -0.0061207279864103625,
+        -0.012586675802297956,
+        0.00017170393828470595
+      ]
+    },
+    "C5_reversed": {
+      "mean_auc": 0.8397479064584072,
+      "flips_per_100_vs_C0": 4.433497536945812,
+      "per_crit_auc": {
+        "pigment_network": 0.8060739856262688,
+        "vascular_structures": 0.8952438435236795,
+        "pigmentation": 0.8278803285764544,
+        "streaks": 0.8850834938793873,
+        "dots_and_globules": 0.7844578806862454
+      },
+      "dAUC_vs_C0": [
+        0.0024055725690211092,
+        -0.0017379249746685838,
+        0.006652199317648098
+      ]
+    }
+  },
+  "verdict": "FOLLOWS OPTION NAME"
+}

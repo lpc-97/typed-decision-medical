@@ -1,0 +1,17 @@
+{
+  "args": {
+    "ds": "slake",
+    "init": "base",
+    "seed": 1,
+    "split": "official",
+    "epochs": 3,
+    "lr": 5e-05,
+    "batch": 8,
+    "rev_frac": 0.3,
+    "out": "../runs/vqa_ft_official/slake_base_s1"
+  },
+  "n": 358,
+  "acc": 0.9245810055865922,
+  "auc": 0.9719967532467533,
+  "brier": 0.06678524379597388
+}

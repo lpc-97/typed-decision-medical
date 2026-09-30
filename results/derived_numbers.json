@@ -1,0 +1,414 @@
+{
+ "test_derm7pt_ft_kev_auc": {
+  "mean": 0.851,
+  "sd": 0.001438,
+  "min": 0.849341,
+  "max": 0.851903
+ },
+ "test_derm7pt_ft_kev_ece": {
+  "mean": 0.059404,
+  "sd": 0.006122,
+  "min": 0.054872,
+  "max": 0.066369
+ },
+ "test_derm7pt_ft_base_auc": {
+  "mean": 0.839473,
+  "sd": 0.001496,
+  "min": 0.837925,
+  "max": 0.840911
+ },
+ "test_derm7pt_ft_base_ece": {
+  "mean": 0.058936,
+  "sd": 0.004813,
+  "min": 0.053504,
+  "max": 0.062673
+ },
+ "test_derm7pt_probe_biomedclip_auc": {
+  "mean": 0.793652,
+  "sd": 0.002113,
+  "min": 0.791212,
+  "max": 0.794872
+ },
+ "test_derm7pt_probe_biomedclip_ece": {
+  "mean": 0.066075,
+  "sd": 0.000993,
+  "min": 0.065501,
+  "max": 0.067221
+ },
+ "test_derm7pt_probe_qwenvis_auc": {
+  "mean": 0.827067,
+  "sd": 0.001443,
+  "min": 0.826202,
+  "max": 0.828733
+ },
+ "test_derm7pt_probe_qwenvis_ece": {
+  "mean": 0.046681,
+  "sd": 0.005055,
+  "min": 0.040897,
+  "max": 0.050249
+ },
+ "test_derm7pt_kev_vs_base_dauc": {
+  "mean": 0.011499,
+  "sd": 0.002176,
+  "min": 0.009747,
+  "max": 0.013934
+ },
+ "test_slake_ft_kev_auc": {
+  "mean": 0.981111,
+  "sd": 0.000852,
+  "min": 0.980603,
+  "max": 0.982095
+ },
+ "test_slake_ft_kev_ece": {
+  "mean": 0.059697,
+  "sd": 0.002844,
+  "min": 0.056461,
+  "max": 0.061796
+ },
+ "test_slake_ft_kev_acc": {
+  "mean": 0.923944,
+  "sd": 0.005634,
+  "min": 0.91831,
+  "max": 0.929577
+ },
+ "test_slake_ft_base_auc": {
+  "mean": 0.975989,
+  "sd": 0.002036,
+  "min": 0.97454,
+  "max": 0.978317
+ },
+ "test_slake_ft_base_ece": {
+  "mean": 0.06582,
+  "sd": 0.010425,
+  "min": 0.054241,
+  "max": 0.07446
+ },
+ "test_slake_ft_base_acc": {
+  "mean": 0.915493,
+  "sd": 0.004879,
+  "min": 0.912676,
+  "max": 0.921127
+ },
+ "test_slake_kev_vs_base_dauc": {
+  "mean": 0.005164,
+  "sd": 0.002654,
+  "min": 0.002321,
+  "max": 0.007578
+ },
+ "test_vqarad_ft_kev_auc": {
+  "mean": 0.85829,
+  "sd": 0.002192,
+  "min": 0.855868,
+  "max": 0.860138
+ },
+ "test_vqarad_ft_kev_ece": {
+  "mean": 0.205037,
+  "sd": 0.010153,
+  "min": 0.193937,
+  "max": 0.213854
+ },
+ "test_vqarad_ft_kev_acc": {
+  "mean": 0.763612,
+  "sd": 0.0046,
+  "min": 0.760956,
+  "max": 0.768924
+ },
+ "test_vqarad_ft_base_auc": {
+  "mean": 0.763986,
+  "sd": 0.091062,
+  "min": 0.659169,
+  "max": 0.823627
+ },
+ "test_vqarad_ft_base_ece": {
+  "mean": 0.165548,
+  "sd": 0.035505,
+  "min": 0.14316,
+  "max": 0.206485
+ },
+ "test_vqarad_ft_base_acc": {
+  "mean": 0.723772,
+  "sd": 0.058054,
+  "min": 0.657371,
+  "max": 0.76494
+ },
+ "test_vqarad_kev_vs_base_dauc": {
+  "mean": 0.093204,
+  "sd": 0.090703,
+  "min": 0.031548,
+  "max": 0.197353
+ },
+ "test_derm7pt_kev_vs_biomedclip_dauc": {
+  "mean": 0.057534,
+  "sd": 0.003328,
+  "min": 0.054456,
+  "max": 0.061065
+ },
+ "test_derm7pt_kev_vs_qwenvis_dauc": {
+  "mean": 0.023966,
+  "sd": 0.001533,
+  "min": 0.023046,
+  "max": 0.025736
+ },
+ "val_derm7pt_tcb_auc": {
+  "mean": 0.844354,
+  "sd": 0.001312,
+  "min": 0.842864,
+  "max": 0.845339
+ },
+ "val_derm7pt_biomedclip_auc": {
+  "mean": 0.79848,
+  "sd": 0.002681,
+  "min": 0.795385,
+  "max": 0.800028
+ },
+ "val_derm7pt_a1_auc": {
+  "mean": 0.84154,
+  "sd": 0.006366,
+  "min": 0.834201,
+  "max": 0.845565
+ },
+ "val_derm7pt_qwenvis_auc": {
+  "mean": 0.81606,
+  "sd": 0.002408,
+  "min": 0.813441,
+  "max": 0.818179
+ },
+ "val_lowdata_0.1_kev": {
+  "mean": 0.744403,
+  "sd": 0.008531,
+  "min": 0.73458,
+  "max": 0.749952
+ },
+ "val_lowdata_0.1_base": {
+  "mean": 0.747733,
+  "sd": 0.008858,
+  "min": 0.74073,
+  "max": 0.75769
+ },
+ "val_lowdata_0.25_kev": {
+  "mean": 0.799922,
+  "sd": 0.001559,
+  "min": 0.798375,
+  "max": 0.801493
+ },
+ "val_lowdata_0.25_base": {
+  "mean": 0.801853,
+  "sd": 0.000915,
+  "min": 0.800798,
+  "max": 0.802429
+ },
+ "val_lowdata_0.5_kev": {
+  "mean": 0.824459,
+  "sd": 0.003253,
+  "min": 0.820757,
+  "max": 0.826859
+ },
+ "val_lowdata_0.5_base": {
+  "mean": 0.81265,
+  "sd": 0.008463,
+  "min": 0.802887,
+  "max": 0.817903
+ },
+ "val_slake_ft_kev_auc": {
+  "mean": 0.979609,
+  "sd": 0.00181,
+  "min": 0.977601,
+  "max": 0.981113
+ },
+ "val_slake_ft_base_auc": {
+  "mean": 0.974016,
+  "sd": 0.002774,
+  "min": 0.971997,
+  "max": 0.977179
+ },
+ "val_slake_ft_kev_ece": {
+  "mean": 0.052615,
+  "sd": 0.007234,
+  "min": 0.044263,
+  "max": 0.056871
+ },
+ "val_slake_ft_base_ece": {
+  "mean": 0.063944,
+  "sd": 0.00528,
+  "min": 0.0581,
+  "max": 0.068373
+ },
+ "pubmedqa_jev_acc_pct": 78.4,
+ "pubmedqa_lp4b_pred_maybe": 139,
+ "pubmedqa_true_maybe": 55,
+ "pubmedqa_true_dist": [
+  276,
+  169,
+  55
+ ],
+ "leak_vqarad_test_seen_yesno_train_pct": 90.4,
+ "leak_vqarad_test_seen_anytype_train_pct": 99.6,
+ "leak_slake_val_seen_yesno_train_pct": 0.0,
+ "leak_slake_val_seen_anytype_train_pct": 69.3,
+ "leak_slake_test_seen_yesno_train_pct": 0.0,
+ "leak_slake_test_seen_anytype_train_pct": 74.4,
+ "optname_mp_flips_zs": {
+  "mean": 14.54844,
+  "sd": 3.854021,
+  "min": 8.669951,
+  "max": 19.802956
+ },
+ "optname_mp_flips_ft_kev": {
+  "mean": 6.272578,
+  "sd": 1.081162,
+  "min": 4.433498,
+  "max": 8.768473
+ },
+ "optname_mp_flips_ft_base": {
+  "mean": 11.551724,
+  "sd": 3.636747,
+  "min": 6.896552,
+  "max": 20.295567
+ },
+ "optname_mp_flips_all": {
+  "mean": 10.790914,
+  "sd": 4.607726,
+  "min": 4.433498,
+  "max": 20.295567
+ },
+ "optname3_did": {
+  "mean": 0.028737,
+  "sd": 0.01108,
+  "min": 0.021082,
+  "max": 0.041442
+ },
+ "optname3_kev_swap": {
+  "mean": -0.011382,
+  "sd": 0.002797,
+  "min": -0.013088,
+  "max": -0.008153
+ },
+ "optname3_base_swap": {
+  "mean": -0.040119,
+  "sd": 0.008296,
+  "min": -0.049595,
+  "max": -0.034171
+ },
+ "optname3_kev_swapflips": {
+  "mean": 17.799672,
+  "sd": 0.888522,
+  "min": 16.945813,
+  "max": 18.719212
+ },
+ "optname3_base_swapflips": {
+  "mean": 21.871921,
+  "sd": 2.272426,
+  "min": 19.310345,
+  "max": 23.64532
+ },
+ "point": {
+  "test_derm7pt_kev_vs_base_s1": 0.009759,
+  "test_derm7pt_kev_vs_qwenvis_s1": 0.023074,
+  "test_derm7pt_kev_vs_biomedclip_s1": 0.05447,
+  "test_derm7pt_kev_vs_base_s2": 0.010845,
+  "test_derm7pt_kev_vs_qwenvis_s2": 0.023023,
+  "test_derm7pt_kev_vs_biomedclip_s2": 0.056884,
+  "test_derm7pt_kev_vs_base_s3": 0.013978,
+  "test_derm7pt_kev_vs_qwenvis_s3": 0.025701,
+  "test_derm7pt_kev_vs_biomedclip_s3": 0.06069,
+  "test_derm7pt_reflex4b_vs_lp4b": 0.023867,
+  "test_derm7pt_kev4b_vs_lp4b": 0.018899,
+  "test_derm7pt_kev08b_vs_lp08b": 0.045201,
+  "test_slake_kev_vs_base_s1": 0.005524,
+  "test_slake_kev_vs_base_s2": 0.007556,
+  "test_slake_kev_vs_base_s3": 0.002286,
+  "test_slake_reflex4b_vs_lp4b": 0.001476,
+  "test_slake_kev4b_vs_lp4b": -0.005302,
+  "test_slake_kev08b_vs_lp08b": -0.038825,
+  "test_vqarad_kev_vs_base_s1": 0.199694,
+  "test_vqarad_kev_vs_base_s2": 0.032242,
+  "test_vqarad_kev_vs_base_s3": 0.050975,
+  "test_vqarad_reflex4b_vs_lp4b": -0.015038,
+  "test_vqarad_kev4b_vs_lp4b": 0.014719,
+  "test_vqarad_kev08b_vs_lp08b": 0.028546,
+  "pubmedqa_jev_vs_reflex4b_f1": 0.070451,
+  "pubmedqa_jev_vs_reflex4b_ece": 0.042808,
+  "pubmedqa_jev_vs_kev4b_f1": 0.053968,
+  "pubmedqa_jev_vs_kev4b_ece": 0.083053,
+  "pubmedqa_jev_vs_lp4b_f1": 0.090854,
+  "pubmedqa_jev_vs_lp4b_ece": 0.052827,
+  "optname_kev_swap_s1": -0.012915,
+  "optname_base_swap_s1": -0.033971,
+  "optname_did_s1": 0.021056,
+  "optname_kev_swap_s2": -0.008156,
+  "optname_base_swap_s2": -0.049434,
+  "optname_did_s2": 0.041278,
+  "optname_kev_swap_s3": -0.012813,
+  "optname_base_swap_s3": -0.036732,
+  "optname_did_s3": 0.023919,
+  "optname_kev4b_zs_swap": -0.020799,
+  "val_derm7pt_kev_vs_base_s1": -0.0027,
+  "val_derm7pt_kev_vs_base_s2": 0.000483,
+  "val_derm7pt_kev_vs_base_s3": 0.010657,
+  "val_lowdata_0.1_kev_vs_base_s1": 0.007948,
+  "val_lowdata_0.1_kev_vs_base_s2": -0.0102,
+  "val_lowdata_0.1_kev_vs_base_s3": -0.007738,
+  "val_lowdata_0.25_kev_vs_base_s1": -0.002423,
+  "val_lowdata_0.25_kev_vs_base_s2": -0.002531,
+  "val_lowdata_0.25_kev_vs_base_s3": -0.000838,
+  "val_lowdata_0.5_kev_vs_base_s1": 0.008955,
+  "val_lowdata_0.5_kev_vs_base_s2": 0.01787,
+  "val_lowdata_0.5_kev_vs_base_s3": 0.008602,
+  "val_lowdata_0.1_mean_gap": -0.00333,
+  "val_lowdata_0.25_mean_gap": -0.001931,
+  "val_lowdata_0.5_mean_gap": 0.011809,
+  "test_derm7pt_kev_vs_base_mean": 0.011527,
+  "optname_kev_swap_mean": -0.011295,
+  "optname_base_swap_mean": -0.040046
+ },
+ "vqarad_ft_overconfidence": {
+  "kev_s1": {
+   "mean_conf": 0.971,
+   "acc": 0.761,
+   "ece_seen": 0.2084,
+   "ece_unseen": 0.3085,
+   "n_seen": 227,
+   "n_unseen": 24
+  },
+  "kev_s2": {
+   "mean_conf": 0.9582,
+   "acc": 0.7689,
+   "ece_seen": 0.1993,
+   "ece_unseen": 0.176,
+   "n_seen": 227,
+   "n_unseen": 24
+  },
+  "kev_s3": {
+   "mean_conf": 0.9649,
+   "acc": 0.761,
+   "ece_seen": 0.2074,
+   "ece_unseen": 0.2205,
+   "n_seen": 227,
+   "n_unseen": 24
+  },
+  "base_s1": {
+   "mean_conf": 0.7088,
+   "acc": 0.6574,
+   "ece_seen": 0.1393,
+   "ece_unseen": 0.2466,
+   "n_seen": 227,
+   "n_unseen": 24
+  },
+  "base_s2": {
+   "mean_conf": 0.8896,
+   "acc": 0.749,
+   "ece_seen": 0.1381,
+   "ece_unseen": 0.2226,
+   "n_seen": 227,
+   "n_unseen": 24
+  },
+  "base_s3": {
+   "mean_conf": 0.9359,
+   "acc": 0.7649,
+   "ece_seen": 0.1923,
+   "ece_unseen": 0.341,
+   "n_seen": 227,
+   "n_unseen": 24
+  }
+ }
+}

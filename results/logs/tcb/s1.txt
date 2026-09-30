@@ -1,0 +1,9 @@
+== CONFIG ECHO
+base Qwen/Qwen3.5-0.8B-Base dc7cdfe2ee4154fa7e30f5b51ca41bfa40174e68 temperature 2.3510958125672174 dtype float32 hybrid True
+lm params 752.393024 M | visual params 100.592896 M | visual trainable 0
+== TEXT PARITY  questions=61 max|dp|=5.99e-04 argmax_flips=0
+== IMAGE  grid [[1, 28, 28]] image tokens 196 state len 208
+decide-state cosine across 20 images: mean=0.9961 max=0.9995  (want < 0.95)
+P(veil=yes) across images: min 0.143 max 0.823 std 0.190
+blank-image P: [[0.7239999771118164, 0.2759999930858612], [0.3779999911785126, 0.25699999928474426, 0.36500000953674316]] | text-only P: [[0.45399999618530273, 0.5460000038146973], [0.33500000834465027, 0.2770000100135803, 0.3869999945163727]]
+S1_CHECKS_DONE

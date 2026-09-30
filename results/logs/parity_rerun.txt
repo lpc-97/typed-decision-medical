@@ -1,0 +1,3 @@
+s1b.log
+s1.log
+questions=61  Kev prefix-vs-row max|dp|=6.93e-04   ours-vs-Kev-row max|dp|=0.00e+00

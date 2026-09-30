@@ -1,0 +1,28 @@
+{
+  "vqarad_test": {
+    "n_questions": 251,
+    "n_images": 135,
+    "seen_yesno_train": 227,
+    "seen_anytype_train": 250
+  },
+  "vqarad_train_yesno": {
+    "n_questions": 940,
+    "n_images": 280
+  },
+  "slake_val": {
+    "n_questions": 358,
+    "n_images": 96,
+    "seen_yesno_train": 0,
+    "seen_anytype_train": 248
+  },
+  "slake_test": {
+    "n_questions": 355,
+    "n_images": 96,
+    "seen_yesno_train": 0,
+    "seen_anytype_train": 264
+  },
+  "slake_train_yesno": {
+    "n_questions": 1681,
+    "n_images": 445
+  }
+}

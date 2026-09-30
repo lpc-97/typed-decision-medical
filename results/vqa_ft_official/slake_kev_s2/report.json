@@ -1,0 +1,17 @@
+{
+  "args": {
+    "ds": "slake",
+    "init": "kev",
+    "seed": 2,
+    "split": "official",
+    "epochs": 3,
+    "lr": 5e-05,
+    "batch": 8,
+    "rev_frac": 0.3,
+    "out": "../runs/vqa_ft_official/slake_kev_s2"
+  },
+  "n": 358,
+  "acc": 0.9301675977653632,
+  "auc": 0.9776005244755244,
+  "brier": 0.059961018847804304
+}

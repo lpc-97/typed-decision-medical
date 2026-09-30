@@ -1,0 +1,58 @@
+{
+  "args": {
+    "seed": 2,
+    "epochs": 6,
+    "lr": 5e-05,
+    "batch": 4,
+    "perm_frac": 0.3,
+    "out": "../runs/lowdata/f0.25_base_s2",
+    "frac": 0.25,
+    "steps": 300,
+    "init": "base"
+  },
+  "n_train_used": 103,
+  "valid": {
+    "pigment_network": {
+      "auc": 0.7609501495709776,
+      "bacc": 0.5095093795093795,
+      "ece": 0.17197157963743354
+    },
+    "blue_whitish_veil": {
+      "auc": 0.882719468291332,
+      "bacc": 0.745153697036832,
+      "ece": 0.03808351485012788
+    },
+    "vascular_structures": {
+      "auc": 0.8788984947299356,
+      "bacc": 0.5387102104893516,
+      "ece": 0.06625150958892746
+    },
+    "pigmentation": {
+      "auc": 0.7610440823344814,
+      "bacc": 0.5410714285714285,
+      "ece": 0.051154646673813225
+    },
+    "streaks": {
+      "auc": 0.8353323766779209,
+      "bacc": 0.5996418892760356,
+      "ece": 0.052226652946378224
+    },
+    "dots_and_globules": {
+      "auc": 0.7518028084031702,
+      "bacc": 0.573318216175359,
+      "ece": 0.13000948807876098
+    },
+    "regression_structures": {
+      "auc": 0.7462590299277605,
+      "bacc": 0.5194788441692466,
+      "ece": 0.08283058998032744
+    },
+    "mean_auc": 0.8024294871336541,
+    "mean_bacc": 0.575269095032519,
+    "mean_ece": 0.08464685453653839
+  },
+  "init_source": {
+    "init_from": "Qwen/Qwen3.5-0.8B-Base@dc7cdfe2ee4154fa7e30f5b51ca41bfa40174e68 (no Kev warm start)",
+    "tensors": 0
+  }
+}

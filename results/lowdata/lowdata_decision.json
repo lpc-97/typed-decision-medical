@@ -1,0 +1,111 @@
+{
+  "rule": "Low-data decision (pre-registered 2026-09-28, BEFORE any low-data result was seen).\nArms: Kev-0.8B warm start (kev) vs untrained base + fresh LoRA/head (base); same subset per seed; 300 optimizer steps;\nvalid (n=203) evaluated once at the end. Fractions 0.10 / 0.25 / 0.50 of official train.\nPer fraction and seed: paired bootstrap over valid images (B=2000) of dAUC = kev - base (mean of 7 criterion macro-AUCs).\n\"Kev helps at fraction f\"  iff  all 3 seeds' 95% CI > 0.\nClaim \"Jev-style pretraining helps low-data concept learning\" survives iff Kev helps at >= 1 fraction; else DROP it.",
+  "fractions": {
+    "0.1": {
+      "rows": [
+        {
+          "seed": 1,
+          "kev": 0.7486775247153339,
+          "base": 0.7407296859809157,
+          "dAUC": [
+            0.007738003237726602,
+            -0.010983421390258482,
+            0.02584476817165946
+          ]
+        },
+        {
+          "seed": 2,
+          "kev": 0.7345795166267194,
+          "base": 0.7447795551914007,
+          "dAUC": [
+            -0.009864739363651108,
+            -0.03022056130940864,
+            0.012034937558330211
+          ]
+        },
+        {
+          "seed": 3,
+          "kev": 0.7499522722684642,
+          "base": 0.7576903765665479,
+          "dAUC": [
+            -0.007642497253552696,
+            -0.02829009899171101,
+            0.013721470559664103
+          ]
+        }
+      ],
+      "kev_helps": false
+    },
+    "0.25": {
+      "rows": [
+        {
+          "seed": 1,
+          "kev": 0.7983748175796883,
+          "base": 0.8007981606161684,
+          "dAUC": [
+            -0.0026873246130251697,
+            -0.017427059092501675,
+            0.011721512083126483
+          ]
+        },
+        {
+          "seed": 2,
+          "kev": 0.7998985986087787,
+          "base": 0.802429487133654,
+          "dAUC": [
+            -0.002508313969709579,
+            -0.017725248043424215,
+            0.012197856943538813
+          ]
+        },
+        {
+          "seed": 3,
+          "kev": 0.8014927050683262,
+          "base": 0.8023302327200719,
+          "dAUC": [
+            -0.0006829760755402885,
+            -0.01661446160074634,
+            0.014136744268581159
+          ]
+        }
+      ],
+      "kev_helps": false
+    },
+    "0.5": {
+      "rows": [
+        {
+          "seed": 1,
+          "kev": 0.8268585099055251,
+          "base": 0.8179030542868437,
+          "dAUC": [
+            0.00871581224245873,
+            -0.004773108627029188,
+            0.021990091111114652
+          ]
+        },
+        {
+          "seed": 2,
+          "kev": 0.8207570576403407,
+          "base": 0.8028870417027267,
+          "dAUC": [
+            0.017708348583777154,
+            0.004750052019878012,
+            0.03101637725324297
+          ]
+        },
+        {
+          "seed": 3,
+          "kev": 0.8257616076266878,
+          "base": 0.8171591408564538,
+          "dAUC": [
+            0.008817440976209647,
+            -0.0025413686191586293,
+            0.02071979938391392
+          ]
+        }
+      ],
+      "kev_helps": false
+    }
+  },
+  "claim_survives": false
+}

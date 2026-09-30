@@ -1,0 +1,69 @@
+{
+  "rule": "Option-name test, fine-tuned models, 3 seeds x {Kev init, base init}, last-epoch weights (Derm7pt validation, 5 Choice criteria).\nPrespecified (2026-09-29, before results): per seed, paired bootstrap (B=2000, same image resample for all four quantities)\nof the difference-in-differences DiD = [AUC_kev(C3)-AUC_kev(C0)] - [AUC_base(C3)-AUC_base(C0)].\n\"Kev init reduces name-following\" iff all 3 seeds' 95% CI of DiD > 0. Also per-arm swap drop per seed and flips/100.",
+  "seeds": {
+    "1": {
+      "kev_C0": 0.8343277104835982,
+      "base_C0": 0.8384590502569846,
+      "kev_swap_dAUC": [
+        -0.013088420044754377,
+        -0.0238296512089142,
+        -0.00204449355366912
+      ],
+      "base_swap_dAUC": [
+        -0.03417085042767706,
+        -0.04994788496041462,
+        -0.019434323387930847
+      ],
+      "DiD": [
+        0.021082430382922682,
+        0.008940141218047148,
+        0.0328347860491212
+      ],
+      "kev_flips": 16.945812807881772,
+      "base_flips": 19.310344827586206
+    },
+    "2": {
+      "kev_C0": 0.838731647765921,
+      "base_C0": 0.839062847939292,
+      "kev_swap_dAUC": [
+        -0.008153468311572293,
+        -0.01703035950072835,
+        0.0006694701424193302
+      ],
+      "base_swap_dAUC": [
+        -0.04959520537690204,
+        -0.06844127747144757,
+        -0.03171414863202344
+      ],
+      "DiD": [
+        0.04144173706532975,
+        0.02662620246781567,
+        0.05690075688629589
+      ],
+      "kev_flips": 17.733990147783253,
+      "base_flips": 22.660098522167488
+    },
+    "3": {
+      "kev_C0": 0.8373626435749018,
+      "base_C0": 0.8271004205204889,
+      "kev_swap_dAUC": [
+        -0.012903578079704395,
+        -0.02466752908428741,
+        -0.0010571559631122724
+      ],
+      "base_swap_dAUC": [
+        -0.036589575409535266,
+        -0.05075017020409175,
+        -0.02305725248799648
+      ],
+      "DiD": [
+        0.023685997329830875,
+        0.013278213868801977,
+        0.03429559514837623
+      ],
+      "kev_flips": 18.7192118226601,
+      "base_flips": 23.645320197044338
+    }
+  },
+  "kev_reduces_name_following": true
+}

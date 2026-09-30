@@ -1,0 +1,24 @@
+== g0/tcb_s1.log
+trainable params 11.35M | visual trainable 0
+== GRAD CHECK loss=1.1870 lora tensors with grad 372/372 | head grads nonzero True | visual grads 0
+== g0/tcb_s2.log
+trainable params 11.35M | visual trainable 0
+== GRAD CHECK loss=1.3953 lora tensors with grad 372/372 | head grads nonzero True | visual grads 0
+== g0/tcb_s3.log
+trainable params 11.35M | visual trainable 0
+== GRAD CHECK loss=1.2216 lora tensors with grad 372/372 | head grads nonzero True | visual grads 0
+== g0/a1_base_s1.log
+trainable params 11.35M | visual trainable 0
+== GRAD CHECK loss=1.6741 lora tensors with grad 186/372 | head grads nonzero True | visual grads 0
+== g0/a1_base_s2.log
+trainable params 11.35M | visual trainable 0
+== GRAD CHECK loss=0.9794 lora tensors with grad 186/372 | head grads nonzero True | visual grads 0
+== g0/a1_base_s3.log
+trainable params 11.35M | visual trainable 0
+== GRAD CHECK loss=1.7018 lora tensors with grad 186/372 | head grads nonzero True | visual grads 0
+== g0_final/tcb_s2.log
+trainable params 11.35M | visual trainable 0
+== GRAD CHECK loss=1.3953 lora tensors with grad 372/372 | head grads nonzero True | visual grads 0
+== g0_final/a1_base_s1.log
+trainable params 11.35M | visual trainable 0
+== GRAD CHECK loss=1.6741 lora tensors with grad 186/372 | head grads nonzero True | visual grads 0

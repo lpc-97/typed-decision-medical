@@ -1,0 +1,9 @@
+{
+  "failed": [],
+  "determinism": {
+    "n": 100,
+    "argmax_changed": 2,
+    "max_abs_dp": 0.09999999999999998
+  },
+  "served_model": "jev-1.13.0"
+}
